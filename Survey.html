@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <b><u><h2>Help us out with our survey:</h2></u></b>
+    <fieldset>
+        <legend>Survey form</legend>
+        <form action="">
+            <label for="username">Name</label>
+            <input type="text"  name="Name" placeholder="Enter your name" maxlength="15"><br><br>
+            <label for="password">Password</label>
+            <input type="password" name="password" placeholder="Enter password" maxlength="10" ><br><br>
+            <label for="textarea">Description</label>
+            <textarea name="Textarea" maxlength="200"></textarea><br><br>
+            <label for="files">Upload your file here</label>
+            <input type="file"><br><br>
+            <label for="dates">select date</label>
+            <input type="date"><br><br>
+            <label for="radio">*Select the correct Option</label>
+            <p>Q: Who was the founder of pakistan?</p>
+            <input type="radio" name="mcq" value="Liaqat Ali khan">Liaqat ali khan
+            <input type="radio" name="mcq" value="Quaid-e-Azam">Quaid-e-Azam
+            <input type="radio" name="mcq" value="Irfan jonejo">Irfan jonejo <br><br>
+            <label for="Selection">*select the subject you want</label>
+            <select name="Subjects" id="subject">
+            <option value="physics">Physics</option>
+            <option value="Computer">Computer</option>
+            <option value="software Design">Software design</option>
+    </select><br><br>
+    <label for="Sel">Select your favourite ones</label><br>
+    <input type="checkbox" name="tea" value="tea">Physics
+    <input type="checkbox" name="Computer" value="computer">computer
+    <input type="checkbox" name="software" value="Software">Software
+    <input type="button" name="btn" value="Need help?"><br><br>
+    <input type="submit">
+    </form>
+    </fieldset>
+</body>
+</html>
